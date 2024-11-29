@@ -2,8 +2,14 @@
 using namespace std;
 
 int main(){
+    int num ;
     cout << "Enter an integer: ";
-    cout << "#Even numbers = ";
-    cout << "#Odd numbers = ";
+    cin >> num ;
+     
+    if(num % 2 == 0){
+        cout << "#Even numbers = " << num;
+    }else{
+        cout << "#Odd numbers = " << num;
+    }
     return 0;
 }
