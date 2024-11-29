@@ -2,14 +2,19 @@
 using namespace std;
 
 int main(){
-    int num ;
+    int num, oddcount = 0, evencount = 0 ;
     cout << "Enter an integer: ";
-    cin >> num ;
-     
-    if(num % 2 == 0){
-        cout << "#Even numbers = " << num ;
-    }else{
-        cout << "#Odd numbers = " << num ;
+
+    while( cin >> num && num != 0){
+        if(num % 2 == 0){
+        evencount++ ;
+        }else{
+        oddcount++ ;
     }
+    cout << "Enter an integer: " ;
+}
+    cout << "#Even numbers = " << evencount << endl;
+    cout << "#Odd numbers = " << oddcount ;
     return 0;
+
 }
