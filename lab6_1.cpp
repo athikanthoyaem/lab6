@@ -7,9 +7,9 @@ int main(){
     cin >> num ;
      
     if(num % 2 == 0){
-        cout << "#Even numbers = " << num;
+        cout << "#Even numbers = " << num ;
     }else{
-        cout << "#Odd numbers = " << num;
+        cout << "#Odd numbers = " << num ;
     }
     return 0;
 }
